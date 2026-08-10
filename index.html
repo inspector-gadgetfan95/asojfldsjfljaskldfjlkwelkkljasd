@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>kaskar</title>
 <meta content="kaskar" property="og:title"/>
 <meta content="Coming soon. -Terrorzone" property="og:description"/>
@@ -66,6 +67,12 @@
   }
   .content .msg { font-size: 13px; color: #aaa; line-height: 1.9; margin-bottom: 1.5rem; }
   .content .sign { color: #777; }
+
+  @media (max-width: 600px) {
+    #enter span { font-size: 15px; letter-spacing: 4px; }
+    .content { font-size: 16px; }
+    .content .msg { font-size: 15px; }
+  }
 </style>
 </head>
 <body onmousedown="return false" onselectstart="return false">
